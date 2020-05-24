@@ -39,5 +39,6 @@ public class UserController {
     public UserBean User(@PathVariable("id") String id){
         Long Id  = Long.parseLong(id);
         return userMapper2.getUserById(Id);
+
     }
 }
